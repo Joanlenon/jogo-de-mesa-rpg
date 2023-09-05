@@ -19,7 +19,8 @@
 }
 
  
-/* Estilos para links ativos */
+ 
+
 .active {
     font-weight: bold;
 }
@@ -33,6 +34,7 @@
 body {
     background: var(--bg-color);
     color: var(--text-color);
+    
 }
 .txt-per {
 
@@ -108,7 +110,7 @@ header {
     display: flex;
     align-items: center;
     color: var(--text-color);
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -383,7 +385,7 @@ body.color {
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1260px) {
     .hero-in {
         grid-template-columns: repeat(auto-fit, minmax(190px, auto));
         gap: 18px;
